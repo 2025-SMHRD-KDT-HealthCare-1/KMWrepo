@@ -25,6 +25,7 @@ function App() {
 
   return (
     <>
+    {/* map 함수 : 배열이 가지고있는 데이터(요소) 한번씩 접근해서 컴포넌트를 통해 출력하는방법 */}
       <Menu temp={temp} menu ="아메리카노" price ="4100"></Menu>
       <Menu temp={temp} menu ="카페라떼" price = "4600"></Menu>
       <Menu temp={temp} menu = "에이드" price = "5000"></Menu>
